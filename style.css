@@ -10,6 +10,7 @@
     margin: 15px;
     padding: 10px;
     border-radius: 5px;
+    font:1rem "Fira Sans",sans-serif;
 
 
 }
@@ -31,8 +32,9 @@
 
 .left img {
 
-    height: 300px;
+    height: 500px;
     width: auto;
+    margin-bottom: 300px;
 
 
 }
@@ -60,7 +62,7 @@
 
 }
 .c-boxs{
-    border: 7px solid gray;
+    border: 3px solid gray;
     border-radius: 10px;
     height: 130px;
     width: 100px;
@@ -69,14 +71,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 2s linear;
+    transition: all 0.5s linear;
+    font:1.2rem "Fira Sans",sans-serif;
   
    
 
 }
 
 .c-boxs:hover{
-    border: 7px solid rgb(31, 91, 168) ;
+    border: 4px solid rgb(31, 91, 168) ;
 
 }
 .offers .o-boxs{
@@ -125,16 +128,7 @@ a {
     color: rgb(221, 137, 40);
 }
 
-button {
-    border-radius: 20px;
-    height: 40px;
-    width: 100px;
-    background-color: rgb(236, 184, 12);
-    margin-top: 10px;
-    margin-left: 20px;
-    border: none;
 
-}
 
 
 .c-boxs img {
@@ -150,7 +144,84 @@ button {
 }
 
 .right{
-    height: 700px;
+    height: 1300px;
     overflow: scroll;
     scrollbar-width: none;
+}
+/* storage */
+.storage{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font:1.2rem "Fira Sans",sans-serif;
+
+}
+.s-box{
+    display: flex;
+    gap: 10px;
+    font:1rem "Fira Sans",sans-serif;
+
+
+}
+.s-box .s-boxs{
+   
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.76);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px gray;
+    width: 500px;
+    height: 40px;
+    transition: all 0.5s linear;
+}
+.s-boxs:hover{
+    border: 2px solid rgb(31, 91, 168) ;
+    box-shadow: 2px 2px 2px gray;
+}
+.s-boxs p{
+    padding-left: 50px;
+    justify-content: start;
+    align-items: center;
+}
+/* style name */
+.exchange{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font:1.2rem "Fira Sans",sans-serif;
+
+}
+.slename{
+    display: flex;
+    gap: 10px;
+    font:1rem "Fira Sans",sans-serif;
+    flex-wrap: wrap;
+
+}
+.slename .e-box{
+
+    padding: 10px;
+    border: 2px solid #888;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 100px;
+   
+    transition: all 0.3s ease-in-out;
+}
+.other-offer{
+    
+    justify-content: start;
+    align-items: center;
+    font:1.2rem "Fira Sans",sans-serif;
+    width: 500px;
+    height: 40px;
+
+}
+.other-offer p{
+    column-count: 2; /* Set the number of columns */
+   row-count:5;/* Set the width of each column */
+      /* Optional: Add a gap between columns */
+      column-gap: 20px;
 }
