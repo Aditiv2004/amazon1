@@ -10,7 +10,6 @@
     margin: 15px;
     padding: 10px;
     border-radius: 5px;
-    font:1rem "Fira Sans",sans-serif;
 
 
 }
@@ -23,18 +22,49 @@
 
 
 }
+.sponserd h2{
+        color: black;
+}
+/* left box */
 
 .left {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+.box1{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(74,74,74);
+    margin-top: 5px;
+    border-radius: 5px;
+    gap: 50px;
+    
+}
+.leftdiv .box1 img{
+    height: 50px;
+    width: 50px;
 
+}
+.l-div1{
+    display: flex;
+    margin-bottom: 700px;
+    padding: 10px;
+   
+    
+
+}
+.leftdiv{
+    height: 40px;
+    width: 100px;
+    
+}
+/* left img */
 .left img {
 
-    height: 500px;
+    height: 600px;
     width: auto;
-    margin-bottom: 300px;
 
 
 }
@@ -62,7 +92,7 @@
 
 }
 .c-boxs{
-    border: 3px solid gray;
+    border: 7px solid gray;
     border-radius: 10px;
     height: 130px;
     width: 100px;
@@ -71,15 +101,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 0.5s linear;
-    font:1.2rem "Fira Sans",sans-serif;
+    transition: all 2s linear;
   
    
 
 }
 
 .c-boxs:hover{
-    border: 4px solid rgb(31, 91, 168) ;
+    border: 7px solid rgb(31, 91, 168) ;
 
 }
 .offers .o-boxs{
@@ -128,7 +157,16 @@ a {
     color: rgb(221, 137, 40);
 }
 
+button {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(236, 184, 12);
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
 
+}
 
 
 .c-boxs img {
@@ -144,7 +182,7 @@ a {
 }
 
 .right{
-    height: 1300px;
+    height: 700px;
     overflow: scroll;
     scrollbar-width: none;
 }
@@ -170,7 +208,7 @@ a {
     border-radius: 10px;
     margin: 10px;
     box-shadow: 2px 2px 2px gray;
-    width: 500px;
+    width: 200px;
     height: 40px;
     transition: all 0.5s linear;
 }
@@ -183,6 +221,7 @@ a {
     justify-content: start;
     align-items: center;
 }
+
 /* style name */
 .exchange{
     display: flex;
@@ -206,22 +245,48 @@ a {
     margin: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     width: 200px;
-    height: 100px;
+    height: 40px;
    
     transition: all 0.3s ease-in-out;
 }
+.e-box:hover{
+    border: 2px solid rgb(31, 91, 168) ;
+    box-shadow: 2px 2px 2px gray;
+}
 .other-offer{
     
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     font:1.2rem "Fira Sans",sans-serif;
-    width: 500px;
-    height: 40px;
-
+    padding: 5px;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid #888;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
 }
-.other-offer p{
-    column-count: 2; /* Set the number of columns */
-   row-count:5;/* Set the width of each column */
-      /* Optional: Add a gap between columns */
+.other-offer:hover{
+    border: 1px solid rgb(31, 91, 168) ;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.tabledata{
+    font:1.2rem "Fira Sans",sans-serif;
+    column-count: 2; 
       column-gap: 20px;
+      padding:10px ;
+      margin: 10px;
+}
+/* About this item */
+h5{
+    font:1.2rem "Fira Sans",sans-serif;
+    font-weight: bold;
+}
+p{
+    font:1rem "Fira Sans",sans-serif;
+}
+seemore{
+    text-decoration: none;
+    color: skyblue;
 }
